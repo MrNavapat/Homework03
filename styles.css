@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+header{
+    display:flex;
+    border-bottom:2px solid rgb(165, 159, 159);
+    justify-content: space-around;
+    min-height: 70px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(232, 232, 232);
+
+}
+
+.logo{
+    display:flex;
+    justify-content: space-around;
+    
+    gap:20px;
+    align-items: center;
+
+}
+
+.menu{
+    display:flex;
+    justify-content: space-around;
+   
+    gap:20px;
+
+
+
+}
+
+.signup{
+    display:flex;
+    justify-content: space-around;
+   
+    gap:20px;
+    align-items: center;
+
+}
+
+header img{
+    width:40px;
+    height:40px;
+}
+
+.shoplist{
+    display:flex;
+    flex-direction: column;
+   
+
+}
+
+.shoplist >.item img {
+    height:60px;
+    width:60px;
+
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    /* background-color: rgb(218, 26, 26);  */
+    background-color: rgb(232, 232, 232);
+    height:900px; 
+    gap:20px;
+    padding-top:50px;
+}
+
+
+
+.content img{
+    width:20px;
+    height:20px;
+}
+
+.item{
+    display:flex;
+     width:700px;
+    height:300px;
+    background-color:white;
+    margin:10px;
+    border-radius: 10px 10px 10px 10px ;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.total_sum{
+    width:700px;
+    height:400px;
+    margin:10px;
+    border-radius:10px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:3px solid rgb(170, 170, 170);
+
+}
+.total_sum >button {
+    background-color: rgb(161, 239, 146);
+    padding:5px;
+    font-size: 30px;
+    font-weight: bold;
+    margin:auto;
+    border:none;
+    border-radius: 15px;
+}
+
+.item_logo{
+    width:250px;
+    height:250px;
+    background-color: rgb(184, 227, 254);
+    color:white;
+    border-radius: 15px;
+    font-size:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left:20px;
+}
+
+
+
+.item_logo> *{
+    padding:15px;
+}
+
+
+
+.item_detail *{
+    font-size: 20px;
+    padding:10px;
+}
+
+.level{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item_logo >.logo_topic{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item_logo >.logo_descr{
+    font-size: 20px;
+
+}
+
+.level_range{
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color: rgb(80, 246, 171);
+}
+
+.level_color{
+    display: flex;
+    gap:5px;
+    }
+
+.item_topic{
+    font-weight: bold;
+    font-size:30px;
+}
+
+.item_sum{
+    font-size:25px;
+}
+
+.subtotal{
+    display:flex;
+    justify-content: space-between;
+    font-size:30px;
+    margin-left: 20px;
+    margin-right:10px;
+}
+
+.total_sum_action{
+    display:flex;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-right: 10px;
+    padding-top: 20px;
+    font-size:30px;
+
+}
+
+.total_payment{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right:7px;
+    padding-top: 30px;
+    font-size:30px;
+}
+
+.total_sum_topic{
+    margin-left: 20px;
+    margin-right:10px;
+    /* padding-bottom: 10px; */
+    font-size:40px;
+    font-weight: bold;
+
+}
+
+
+
+.total_sum_action img{
+    height:40px;
+    width:40px;
+}
+
+.total_sum_action  input{
+    width:30rem;
+    font-size: 20px;;
+
+}
+
+.total_sum_action  button{
+    font-size: 20px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 10px;
+    border: 5px solid rgb(79, 232, 79);
+    color:rgb(79, 232, 79);
+    font-size: bold;
+  
+
+
+}
+
+body >h1{
+    font-size:40px;
+    font-weight: bold;
+    padding-left:190px;
+    padding-top:70px;
+    margin:0px;
+    background-color: rgb(232, 232, 232);
+}
+
+.payment{
+    color:rgb(79, 232, 79);
+    font-weight: bold;
+}
+
+.shopping_cart{
+    position:relative;
+}
+
+.shopping_count{
+    position:absolute;
+    border-radius: 50%;
+    background-color: red;
+    width:20px;
+    height:20px;
+    top:0px;
+    right:0px;
+    font-size:10px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+
+
+}
+
+select{
+    border:none;
+}
+
+select:active {
+    border:3px green solid;
+}
+
+select:focus {
+    border:3px green solid;
+
+}
+
+select:hover{
+    border:3px green solid;
+}
